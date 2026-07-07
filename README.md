@@ -8,8 +8,7 @@
 
 > ## **No signup. No installation. Free.**
 >
-> 🌐 **Open in Browser**  
-> *(HTML live demo link)*
+> 🌐 **Open in Browser**  👉[*HTML live demo*](https://hyvoid.github.io/Construction-Management-Project-Control-Workbook/)
 >
 > 📥 **Download Excel Version**  
 > *(GitHub Release / Gumroad link)*
