@@ -1,0 +1,6 @@
+{
+  "name": "Construction Management Project Control Workbook",
+  "description": "An interactive, independent SaaS project control workbook for construction management. It integrates project parameters, cost codes, dynamic budgets, change order trackers, milestones, progress billings, client receipts, holdback accounts, and dynamic cash flow forecasts, with a printable invoice generator and an executive dashboard with high-fidelity analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

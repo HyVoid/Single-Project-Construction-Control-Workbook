@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "EB Garamond", Garamond, Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  
+  --color-primary: #051C2C;
+  --color-accent: #2251FF;
+  --color-bg: #F5F5F2;
+  --color-muted: #888888;
+  --color-body-text: #1A1A2E;
+  --color-positive: #00C853;
+  --color-negative: #D32F2F;
+  --color-surface: #FFFFFF;
+  --color-input-bg: #FFFDE7;
+  --color-border: #E8E8E6;
+}
+
+:root {
+  /* Core Palette mapping */
+  --color-primary: #051C2C;
+  --color-accent: #2251FF;
+  --color-bg: #F5F5F2;
+  --color-muted: #888888;
+  --color-body-text: #1A1A2E;
+  --color-positive: #00C853;
+  --color-negative: #D32F2F;
+  --color-surface: #FFFFFF;
+  --color-input-bg: #FFFDE7;
+  --color-border: #E8E8E6;
+
+  /* Navigation & surfaces */
+  --nav-bg: #FFFFFF;
+  --nav-border: #E8E8E6;
+  --nav-text: #051C2C;
+  --nav-text-inactive: rgba(5, 28, 44, 0.45);
+  --table-header-bg: rgba(5, 28, 44, 0.04);
+  --table-header-sep: rgba(5, 28, 44, 0.12);
+  --insight-bg: rgba(34, 81, 255, 0.04);
+  --anomaly-bg: rgba(211, 47, 47, 0.04);
+
+  /* Typography metrics */
+  --font-heading: "EB Garamond", Garamond, Georgia, serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 100px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.02);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.03);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.05);
+  --shadow-nav: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 0px rgba(0, 0, 0, 0.05);
+
+  /* Standard parameters */
+  --tracking-display: -0.03em;
+  --tracking-heading: -0.02em;
+  --tracking-label: 0.06em;
+}
+
+/* Page-level typography defaults */
+body {
+  background: var(--color-bg);
+  color: var(--color-body-text);
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Custom font styles utility */
+.font-heading-style {
+  font-family: var(--font-heading);
+}
+
+.font-body-style {
+  font-family: var(--font-body);
+}
+
+/* Smooth fadeUp page-entering transition */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 220ms cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* Custom shadow classes */
+.shadow-apple-sm {
+  box-shadow: var(--shadow-sm);
+}
+
+.shadow-apple-md {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-apple-lg {
+  box-shadow: var(--shadow-lg);
+}
+
+.shadow-apple-nav {
+  box-shadow: var(--shadow-nav);
+}
+
