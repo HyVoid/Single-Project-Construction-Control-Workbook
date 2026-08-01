@@ -1,17 +1,47 @@
-# Construction Management Project Control Workbook
+
+# Single-Project-Construction-Control-Workbook
 
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Browser%20%2B%20Excel-success)
-![Tool](https://img.shields.io/badge/Tool-Project%20Decision%20Support-orange)
+![Type](https://img.shields.io/badge/Tool-Project%20Decision%20Support-orange)
 
-**A lightweight Construction Management project control framework that turns budgets, progress billing, cash flow, change orders, and client payments into operational decisions—available free in both Browser and Excel formats, with no installation required.**
+> **A lightweight project control workbook that helps construction teams monitor budget, progress billing, retainage, contractor payments, and project cash flow for one construction project—available free in both Browser and Excel formats, with no installation or signup required.**
 
-> ## **No signup. No installation. Free.**
+> **No signup. No installation. Free.**
 >
-> 🌐 **Open in Browser**  👉[*HTML live demo*](https://hyvoid.github.io/Construction-Management-Project-Control-Workbook/)
+> 🌐 **Open in Browser**
+> *(HTML Demo — Coming Soon)*
 >
-> 📥 **Download Excel Version**  
-> *(GitHub Release / Gumroad link)*
+> 📥 **Download Excel Workbook**
+> *(GitHub Release / Gumroad — Coming Soon)*
+
+---
+
+# Construction Project Control, Not Company Administration
+
+Most construction software is designed around the needs of an entire company.
+
+They begin with user permissions, resource planning, document control, portfolio reporting, procurement workflows, and enterprise administration before helping someone answer a much simpler question:
+
+> **"Is this individual project financially healthy?"**
+
+This workbook intentionally starts from the opposite direction.
+
+It is built around **one construction project**.
+
+One contract.
+
+One budget.
+
+One schedule.
+
+One stream of change orders.
+
+One cash flow.
+
+From contract award through project closeout, every worksheet contributes to understanding the financial and operational status of that single project instead of managing an entire construction business.
+
+That makes it suitable for contractors, construction managers, owner's representatives, quantity surveyors, and project engineers who need reliable project-level decisions without deploying an enterprise construction management platform.
 
 ---
 
@@ -21,7 +51,7 @@
 
 <!-- screenshot: browser version -->
 
-*Interactive browser dashboard showing project financial health, progress billing, budget variance, cash flow forecast, and management KPIs.*
+*A browser-based project overview for quickly reviewing budget performance, billing status, contractor payments, and cash flow from any device.*
 
 ---
 
@@ -29,467 +59,431 @@
 
 <!-- screenshot: excel version -->
 
-*Excel workbook providing structured data entry, automated calculations, invoice generation, and executive reporting without manual formula maintenance.*
+*The complete Excel workbook containing structured data entry sheets, automated calculations, invoice generation, and executive reporting.*
 
 ---
 
 # What It Helps You Track
 
-- Planned construction budget versus approved changes versus remaining available budget in one consolidated view.
-- Actual project costs alongside progress billing, revealing whether completed work is generating cash as expected.
-- Client invoices, payment status, overdue balances, and retained holdback without separate accounting schedules.
-- Contractor payments, customer receipts, and monthly cash flow forecasts across the entire project lifecycle.
-- Budget overruns, shrinking contingency, delayed collections, and upcoming cash shortages before they become operational problems.
-- Executive KPIs generated from a single source of project data instead of disconnected spreadsheets.
+* Original contract value, approved change orders, and current contract value in one consolidated view.
+* Budget allocation versus actual project spending by cost code before overruns become expensive.
+* Progress billing, retainage (holdback), and client invoicing throughout the project lifecycle.
+* Contractor payments, outstanding receivables, and working capital exposure for a single project.
+* Monthly project cash inflows and outflows before liquidity becomes a construction risk.
+* Milestones, project documentation, and executive KPIs without switching between multiple spreadsheets.
+
+Unlike enterprise construction software that focuses on managing dozens of simultaneous projects, this workbook concentrates on delivering complete financial visibility for **one active project**. Every worksheet contributes to answering the next operational decision rather than maintaining company-wide administration.
 
 ---
 
 # Quick Start Workflow
 
-### 1. Configure the project once
+Getting started is designed to take only a few minutes.
 
-Open the **Parameters** and **Project Setup** worksheets and enter the project's core information. Typical inputs include contract value, holdback percentage, tax rate, project start date, completion date, and other company-wide settings. These values become the single source of truth used throughout the workbook.
+### 1. Configure Project Parameters
 
----
+Open the **Parameters** and **Project Setup** worksheets.
 
-### 2. Import existing project records
+Enter the project's contract value, retainage percentage, tax settings, project dates, client information, and any other project-wide assumptions.
 
-Paste existing data directly into the designated input tables such as Budget, Actual Costs, Change Orders, Progress Billing, Contractor Payments, or Client Receipts.
-
-Existing exports from accounting software, ERP systems, estimating tools, or even another spreadsheet can be copied directly into the Excel Tables without rebuilding formulas or redesigning reports.
+These values become the single source of truth for every calculation throughout the workbook, so they only need to be configured once for each new project.
 
 ---
 
-### 3. Review results immediately
+### 2. Import Existing Project Data
 
-Switch to the Executive Dashboard, Cash Flow forecast, Budget analysis, or Invoice Template.
+Populate the dedicated input sheets with your existing information.
 
-Every KPI, budget comparison, payment summary, progress valuation, and financial indicator updates automatically using the latest project information.
+Typical sources include:
 
-No manual calculations or report preparation are required.
+* Accounting exports
+* ERP reports
+* Existing Excel files
+* CSV exports
+* Quantity survey records
+* Vendor payment schedules
 
----
+No manual restructuring is required.
 
-### 4. Refresh throughout the project
-
-As construction progresses, periodically update the project tables with new invoices, payments, change orders, completed work, and actual costs.
-
-The workbook recalculates every dependent report automatically while preserving all analytical logic and reporting layouts.
-
-There is no need to rebuild formulas, copy worksheets, or maintain separate reporting files.
-
-> **Set a few key parameters. Drop in your existing data. Get the analysis. Refresh when you need to.**
-# Why I Built This
-
-Construction projects rarely fail because teams cannot build. They struggle because financial information becomes fragmented long before anyone realizes a problem exists.
-
-Budget spreadsheets live in one file. Change orders are tracked somewhere else. Progress billing is maintained independently. Client invoices, contractor payments, holdback balances, and cash flow forecasts are often managed by different people using different assumptions. Individually, each spreadsheet appears reasonable. Collectively, they create conflicting versions of project reality.
-
-The analytical failure is not missing data—it is disconnected decision-making.
-
-For example, imagine a project manager approves a \$120,000 change order after receiving client authorization. The construction team begins work immediately, but the approved change never reaches the budget worksheet. Weeks later, actual costs exceed the original budget, triggering what appears to be a significant overrun. In reality, the project is still profitable. The reporting simply failed to incorporate the approved contract adjustment.
-
-Another common example occurs during progress billing. A superintendent reports that the project is 65% complete, while finance prepares invoices manually using an outdated billing schedule. Holdback is calculated incorrectly, invoices are delayed, and projected cash inflows no longer match contractor payment obligations. The project appears cash constrained despite having sufficient contractual value.
-
-I built this workbook to productize the reasoning that experienced construction controllers apply every day.
-
-Instead of maintaining separate operational spreadsheets, this framework connects budgeting, approved changes, progress valuation, invoices, receipts, contractor payments, holdback accounting, and cash flow into one reusable analytical model.
-
-The goal is not to replace existing accounting software. The goal is to make operational decisions using complete, internally consistent information before problems become expensive.
+Simply paste new records into the Excel Tables and the workbook expands automatically.
 
 ---
 
-# Common Construction Management Problems This Solves
+### 3. Review Project Performance
 
-| Problem | Without This Tool | With This Tool |
-|----------|-------------------|----------------|
-| Budget overruns are discovered too late | Original budgets remain static while approved changes and actual costs evolve independently. | Revised budgets update automatically and remaining budget is continuously recalculated. |
-| Approved change orders are overlooked | Project value increases but cost reporting still compares against outdated contract values. | Approved changes flow directly into revised budgets and project financial reporting. |
-| Progress billing calculations vary between periods | Manual calculations introduce inconsistent billing amounts and holdback deductions. | Billing values follow standardized calculations using consistent project parameters. |
-| Client collections become difficult to monitor | Invoice status, outstanding balances, and overdue accounts require multiple tracking files. | Invoice history, payment status, outstanding balances, and aging are monitored in one place. |
-| Cash shortages arrive unexpectedly | Future receipts and contractor obligations are estimated manually with limited visibility. | Monthly cash inflows, outflows, and cumulative cash position are forecast automatically. |
-| Executive reporting requires significant manual effort | Managers consolidate reports from multiple spreadsheets before every meeting. | Executive KPIs are generated directly from operational project data with minimal maintenance. |
+Move to the Executive Dashboard and reporting worksheets.
+
+Budget comparisons, change orders, progress billing, contractor payments, invoice status, retainage balances, and rolling cash flow update automatically as soon as new information is entered.
+
+No manual recalculation.
+
+No copying formulas.
+
+No rebuilding reports every reporting period.
+
+---
+
+### 4. Refresh Throughout the Project
+
+As the project progresses, continue adding:
+
+* Actual costs
+* Progress claims
+* Client receipts
+* Contractor payments
+* Approved change orders
+
+All dashboards, summaries, invoices, and financial indicators continue updating automatically.
+
+**Set a few project parameters once. Import your existing data. Review the analysis. Refresh whenever new project information becomes available.**
+
+---
+
+# Why This Toolkit Focuses on One Project
+
+Many construction businesses already own accounting software.
+
+Many also subscribe to project management platforms.
+
+Yet project managers often find themselves exporting information into temporary spreadsheets before making commercial decisions.
+
+Why?
+
+Because those systems usually answer questions at the company level, while construction decisions happen at the **project level**.
+
+A project manager rarely asks:
+
+> "How is the whole company performing?"
+
+Instead, the questions sound like:
+
+* Is this project still within budget?
+* Can the next progress claim be submitted?
+* How much retainage is currently being withheld?
+* Which invoices remain outstanding?
+* Will this project experience a cash shortage next month?
+
+Those answers require budget information, billing progress, contractor payments, client receipts, retainage, cash flow, and approved variations to exist together.
+
+Unfortunately, they often live in different reports.
+
+This workbook productizes that reasoning into a reusable framework.
+
+Instead of creating another temporary spreadsheet every month, the same workbook continuously integrates project financial information into one operational workspace.
+
+For a construction manager responsible for one active project, that often produces clearer decisions than navigating dozens of enterprise software modules that were never designed around individual project financial control.
+
+---
+
+## Common Construction Project Problems This Solves
+
+| Problem                                                        | Without This Toolkit                                                                                                                                            | With This Toolkit                                                                                                                                                               |
+| -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Budget overruns are discovered too late                        | Cost reports and payment records are reviewed separately, making overruns visible only after commitments have already been made.                                | Budget, committed costs, actual spending, and remaining budget are reviewed together before additional work is approved.                                                        |
+| Progress billing becomes difficult to reconcile                | Contract value, completed work, previous claims, and retainage are maintained in different spreadsheets, creating billing disputes and duplicated calculations. | Progress claims are generated from a single project dataset with contract value, approved variations, completed work, previous billings, and retainage connected automatically. |
+| Cash shortages appear unexpectedly                             | Revenue forecasts and payment obligations are tracked independently, making future liquidity difficult to estimate.                                             | Expected client receipts, contractor payments, and monthly cash movements are consolidated into one rolling project cash flow view.                                             |
+| Change orders gradually distort the original budget            | Approved variations are recorded separately from the original contract, making it difficult to understand the project's current financial position.             | Original contract value, approved change orders, revised contract value, and budget impacts remain connected throughout the project lifecycle.                                  |
+| Project reporting requires rebuilding spreadsheets every month | Managers repeatedly export accounting reports into temporary workbooks for executive reporting.                                                                 | New project transactions are imported into structured tables while dashboards and reports refresh automatically using the existing workbook structure.                          |
+| Financial decisions rely on incomplete information             | Budget, invoices, commitments, retainage, and payments exist across multiple reports, increasing the risk of incorrect commercial decisions.                    | Every major financial component of a **single construction project** is reviewed within one decision-support workspace before commitments are made.                             |
 
 ---
 
 # Who This Is For
 
-This workbook is designed for professionals responsible for controlling construction project performance rather than simply recording transactions.
+This toolkit is designed for professionals responsible for the commercial and financial control of **one construction project**, rather than enterprise-wide portfolio administration.
 
-Typical users include:
+It is particularly suitable for:
 
-- Construction Management (CM) firms managing multiple active projects.
-- Project Managers responsible for budget performance and client billing.
-- Project Controls Engineers monitoring cost and schedule performance.
-- Commercial Managers overseeing contract value, variations, and payment applications.
-- Financial Controllers supporting project-level profitability and cash flow.
-- Small and medium construction companies seeking structured project controls without investing in enterprise software.
+* General contractors managing individual commercial or residential projects.
+* Construction project managers responsible for project budget and financial reporting.
+* Quantity surveyors preparing valuations, payment certificates, and change order assessments.
+* Owner's representatives reviewing contractor claims and project financial health.
+* Small and mid-sized construction firms that need structured project controls without implementing enterprise software.
+* Consultants supporting project cost control or project financial reviews.
 
-This workbook is **not** intended to replace ERP platforms, accounting systems, or enterprise project management software. Instead, it serves as a lightweight decision-support layer that organizes operational information into actionable project intelligence.
+It is **not** intended to replace ERP systems, enterprise construction management platforms, procurement systems, or portfolio management software.
 
-**No spreadsheet expertise is required. Open the Browser version or Excel workbook, configure the project once, and begin tracking immediately.**
+If the objective is to understand whether **one active project** remains financially healthy from contract award through closeout, this workbook is intentionally designed for that purpose.
+
+**No spreadsheet expertise is required. Open the browser version or Excel workbook, import your project data, and begin tracking immediately.**
 
 ---
 
 # About
 
-I build lightweight decision-support tools for operational environments where too many moving parts make reliable decision-making difficult.
+I build lightweight Excel and browser-based decision-support tools for situations where there are simply too many moving parts to keep in your head.
 
-Rather than creating large software platforms, I focus on reusable analytical frameworks that answer one practical question:
+Rather than replacing enterprise software, these workbooks organize the information required to make the **next operational decision** with confidence.
 
-> **What information needs to be visible in one place to make the next decision with confidence?**
+**Construction Project Control & Cash Flow Excel Toolkit** applies that philosophy to construction project financial management by bringing budgeting, billing, cash flow, contractor payments, and commercial reporting together into a reusable framework built around **one project**.
 
-The **Construction Management Project Control Workbook** is one example of that philosophy. It combines budgeting, project controls, billing, cash flow, and financial oversight into a practical workbook that is simple to maintain, easy to reuse, and designed for everyday operational decisions rather than occasional reporting.
+---
+
 # Technical Details
 
 <details>
 <summary><strong>For technical reviewers, Excel practitioners, and collaborators</strong></summary>
 
----
-
 ## Workbook Architecture
 
-The workbook follows a layered architecture that separates configuration, operational inputs, analytical calculations, and executive reporting. Each worksheet has a single responsibility, allowing project data to flow consistently from source records to management decisions.
+The workbook follows a structured **Input → Validation → Calculation → Reporting** architecture so that project information is entered only once and reused throughout downstream calculations.
 
-| Layer | Worksheets | Purpose |
-|---------|------------|---------|
-| Configuration | Parameters, Project Setup | Define project-wide assumptions including contract value, tax rate, holdback percentage, project dates, and client information. |
-| Cost Control | Budget, Actual Costs, Change Orders | Compare baseline budget, approved variations, actual expenditures, and remaining available budget. |
-| Progress Management | Milestones, Progress Billing | Measure construction progress and calculate gross billing, net billing, and holdback automatically. |
-| Financial Operations | Contractor Payments, Client Receipts, Holdback, Cash Flow | Track payments, receivables, retained amounts, and forecast monthly cash position. |
-| Outputs | Invoice Template, Document Register, Executive Dashboard | Produce invoices, executive summaries, project KPIs, and management reporting. |
+| Layer                 | Primary Worksheets                                                                           | Purpose                                                                                                                                |
+| --------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Project Configuration | Project Setup, Parameters                                                                    | Define contract information, tax settings, retainage percentage, project dates, reporting assumptions, and reference data.             |
+| Master Data           | Cost Codes, Vendors, Clients, Resource Lists                                                 | Centralized lookup tables shared across all operational worksheets.                                                                    |
+| Operational Inputs    | Budget, Change Orders, Progress Billing, Contractor Payments, Receivables, Cash Transactions | Record day-to-day project activities without duplicating reference information.                                                        |
+| Calculation Engine    | Intermediate calculation sheets and structured Excel Tables                                  | Consolidate financial data, calculate revised contract values, billing balances, retainage, payment status, and cash flow projections. |
+| Executive Reporting   | Dashboard, KPI Summary, Cash Flow Reports, Invoice Outputs                                   | Present project-level financial status for operational decision making and stakeholder reporting.                                      |
 
-### Data Flow
+### Information Flow
 
 ```text
-Parameters
-      │
 Project Setup
-      │
-      ▼
-Budget ────── Actual Costs
-      │             │
-      │             ▼
-      │      Budget Variance
-      │
-      ▼
-Change Orders
-      │
-      ▼
-Progress Billing
-      │
-      ▼
-Client Receipts
-      │
-      ▼
-Cash Flow
-      │
-      ▼
+        │
+        ▼
+Master Data
+        │
+        ▼
+Budget & Cost Codes
+        │
+        ├──────────────┐
+        ▼              ▼
+Progress Billing   Change Orders
+        │              │
+        └──────┬───────┘
+               ▼
+Contract Value Update
+               │
+               ▼
+Receivables & Contractor Payments
+               │
+               ▼
+Cash Flow Forecast
+               │
+               ▼
 Executive Dashboard
 ```
 
-All operational tables use Excel Structured Tables (`tbl_*`) to ensure automatic formula propagation whenever new rows are added.
+Every downstream report depends on standardized input tables rather than duplicated calculations. This minimizes reconciliation work while allowing project information to remain consistent across financial reports.
 
 ---
 
-# Three Traps That Catch Even Experienced Construction Managers
+## Three Decision Traps That Catch Even Experienced Project Managers
 
----
+### Trap 1 — Treating the Original Contract Value as the Current Financial Baseline
 
-## Trap 1 — Believing the Original Budget Is Still the Budget
+Many project reviews begin with the signed contract amount.
 
-### Decision Made
+The decision appears reasonable because it represents the project's original commercial agreement.
 
-The project appears 8% over budget.
+However, construction projects rarely finish under their original scope.
 
-### Hidden Problem
+Approved change orders increase or decrease contract value throughout delivery.
 
-The report compares actual spending against the original contract instead of the revised contract value after approved change orders.
+Using the original contract as the reporting baseline causes progress percentages, remaining contract value, projected revenue, and profitability to become increasingly inaccurate.
 
-| Incorrect Analysis | Correct Analysis |
-|--------------------|-----------------|
-| Original Budget = \$1,000,000 | Original Budget = \$1,000,000 |
-| Actual Cost = \$1,060,000 | Approved Changes = \$120,000 |
-| Conclusion: Over Budget | Revised Budget = \$1,120,000 |
-| | Remaining Budget = \$60,000 |
+| Incorrect Approach                                           | Correct Approach                                                                         |
+| ------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
+| Compare actual spending against the original contract value. | Compare actual spending against the revised contract value after approved change orders. |
 
-The apparent cost overrun disappears once approved contractual changes are incorporated.
+**Decision Outcome**
 
-The workbook automatically recalculates revised budgets whenever a change order status becomes **Approved**, preventing management from reacting to misleading budget variances.
+Instead of believing a project is approaching its financial limit, managers evaluate performance against the current contractual position, producing more reliable commercial decisions.
 
 <details>
-<summary>Relevant Formula</summary>
+<summary>Formula Logic</summary>
 
-```excel
-=SUMIFS(
-tbl_ChangeOrders[Amount],
-tbl_ChangeOrders[CostCode],
-[@CostCode],
-tbl_ChangeOrders[Status],
-"Approved")
-```
+Typical calculations include:
 
-```excel
-=[@[Original Budget]]+[@[Approved Changes]]
-```
+* Current Contract Value = Original Contract + Approved Variations
+* Remaining Contract Value = Current Contract − Certified Progress Billing
+* Budget Variance = Revised Budget − Actual Cost
 
 </details>
 
 ---
 
-## Trap 2 — Billing More (or Less) Than Project Progress
+### Trap 2 — Reviewing Progress Billing Without Considering Retainage
 
-### Decision Made
+Progress certificates often appear to represent collectible revenue.
 
-Finance prepares an invoice based on estimated progress.
+In practice, retainage (holdback) means a portion of every certified payment remains unavailable until contractual milestones are satisfied.
 
-### Hidden Problem
+Ignoring retainage overstates expected cash inflows and can lead to unnecessary financial commitments.
 
-Manual billing calculations ignore cumulative progress, previous billing periods, or contractual holdback percentages.
+| Incorrect Approach                                     | Correct Approach                                                                     |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| Forecast cash receipts using certified billing values. | Separate certified revenue from retained amounts and forecast only collectible cash. |
 
-| Incorrect | Correct |
-|------------|----------|
-| Manual percentage estimate | Progress measured from cumulative completion |
-| Holdback calculated manually | Holdback calculated automatically |
-| Previous invoices ignored | Previous billings deducted automatically |
+**Decision Outcome**
 
-Instead of estimating invoice values independently each month, the workbook derives current billing directly from cumulative project completion.
-
-This prevents duplicate billing, under-billing, and inconsistent holdback calculations.
+Cash planning reflects expected payment timing rather than accounting revenue alone.
 
 <details>
-<summary>Relevant Formula</summary>
+<summary>Formula Logic</summary>
 
-```excel
-Current Gross =
-Cumulative Gross
--
-Previous Gross
-```
+Typical calculations include:
 
-```excel
-=[@[Current Gross]]*Parameters!$B$3
-```
+* Retainage = Certified Amount × Holdback %
+* Expected Receipt = Certified Amount − Retainage − Previous Collections
+* Outstanding Receivable = Total Certified − Cash Received
 
 </details>
 
 ---
 
-## Trap 3 — Assuming Profit Means Positive Cash Flow
+### Trap 3 — Evaluating Cash Flow After Costs Have Already Been Committed
 
-### Decision Made
+Many project teams review cash only after supplier invoices arrive.
 
-The project is profitable, therefore liquidity is healthy.
+By then, purchasing decisions have already been made.
 
-### Hidden Problem
+Effective project control evaluates future commitments before additional contracts or purchase orders are approved.
 
-Profitability and cash availability are different measurements.
+| Incorrect Approach                            | Correct Approach                                                                                          |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Review bank balance after expenditures occur. | Forecast future inflows, scheduled payments, and projected cash balance before approving new commitments. |
 
-Delayed client payments, retained holdback, and early contractor payments frequently create temporary cash shortages.
+**Decision Outcome**
 
-| Profit View | Cash Flow View |
-|-------------|---------------|
-| Budget still profitable | Cash balance becomes negative in Month 6 |
-| Revenue recognized | Client has not yet paid |
-| Costs recorded | Contractor already paid |
-
-The workbook forecasts monthly inflows and outflows so financing requirements become visible weeks before cash shortages occur.
+Financial decisions become proactive rather than reactive, reducing the likelihood of avoidable liquidity pressure.
 
 <details>
-<summary>Relevant Formula</summary>
+<summary>Formula Logic</summary>
 
-```excel
-=MAP(
-Months,
-LAMBDA(
-m,
-SUMIFS(...)
-))
-```
+Typical calculations include:
 
-```excel
-=SCAN(
-0,
-NetCash#,
-LAMBDA(prev,curr,prev+curr))
-```
+* Opening Cash
+* * Expected Client Receipts
+* − Scheduled Contractor Payments
+* − Forecast Project Costs
+* = Projected Closing Cash
 
 </details>
 
 ---
 
-## Example Scenario
+### Example Scenario
 
-A commercial construction project begins with a contract value of **\$2,000,000**.
+A general contractor is delivering a **$4.8 million commercial renovation project** over a 14-month schedule.
 
-During execution:
+At the beginning of Month 7, the project manager needs to decide whether additional subcontract work can be authorized without creating unnecessary financial pressure.
 
-- Approved Change Orders: **\$180,000**
-- Actual Costs Incurred: **\$1,150,000**
-- Construction Completion: **55%**
-- Holdback Rate: **10%**
-- Client Payments Received: **\$780,000**
-- Contractor Payments Made: **\$960,000**
+The latest project information shows:
 
-### Step 1 — Contract Value Updates
+| Project Item                                 |      Value |
+| -------------------------------------------- | ---------: |
+| Original Contract                            | $4,800,000 |
+| Approved Change Orders                       |   $260,000 |
+| Current Contract Value                       | $5,060,000 |
+| Budget Committed                             | $3,920,000 |
+| Actual Cost Incurred                         | $3,610,000 |
+| Certified Progress Billing                   | $3,480,000 |
+| Retainage (10%)                              |   $348,000 |
+| Client Cash Received                         | $2,940,000 |
+| Scheduled Contractor Payments (Next 30 Days) |   $590,000 |
+| Current Cash Available for Project           |   $760,000 |
 
-Original Contract
+Rather than reviewing each report independently, the workbook combines contract adjustments, budget performance, certified billing, receivables, retainage, contractor payments, and projected cash movement into one decision workspace.
 
-```
-$2,000,000
-```
+The analysis highlights several important findings:
 
-Approved Changes
+* Although the project remains within the revised contract value, approximately **71% of the updated contract has already been certified**, indicating that remaining contract value should be monitored carefully.
+* Retainage represents a significant portion of certified revenue that cannot yet be collected, meaning accounting revenue exceeds immediately available cash.
+* Scheduled subcontractor payments over the next month will temporarily reduce available liquidity unless the next certified payment is collected on schedule.
+* Budget utilization remains healthy, but approving additional discretionary work before expected receipts arrive would unnecessarily increase short-term cash exposure.
 
-```
-+$180,000
-```
+Instead of reacting after invoices become due, the project manager can postpone several non-critical commitments until the next client payment is received.
 
-Revised Contract
+The recommendation is therefore **to continue planned construction activities while delaying optional expenditures until projected cash flow returns to a positive operating buffer**.
 
-```
-$2,180,000
-```
-
----
-
-### Step 2 — Progress Billing
-
-55% completion produces
-
-```
-Gross Billing
-
-=
-$2,180,000 × 55%
-
-=
-$1,199,000
-```
-
-Holdback
-
-```
-10%
-
-=
-$119,900
-```
-
-Net Amount Due
-
-```
-$1,079,100
-```
+This type of project-level financial reasoning is exactly what the workbook is designed to support throughout the construction lifecycle.
 
 ---
 
-### Step 3 — Cash Position
-
-Receipts
-
-```
-$780,000
-```
-
-Payments
-
-```
-$960,000
-```
-
-Current Cash Position
-
-```
--$180,000
-```
-
-Although the project remains profitable, working capital has become negative because customer collections lag contractor payments.
-
-Management can now:
-
-- accelerate invoice collection,
-- postpone discretionary purchases,
-- negotiate payment timing,
-- arrange short-term financing before liquidity becomes critical.
-
-This is exactly the operational distinction the workbook is designed to expose.
-
----
-
-## Formula Reference
+### Formula Reference
 
 <details>
-<summary>Budget Worksheet</summary>
+<summary><strong>Project Setup & Contract Management</strong></summary>
 
-| Purpose | Formula |
-|----------|----------|
-| Approved Changes | `SUMIFS()` |
-| Actual Cost | `SUMIFS()` |
-| Remaining Budget | `Revised Budget - Actual Cost` |
-| Budget Status | `IFS()` |
+| Formula / Logic       | Purpose                                                                         |
+| --------------------- | ------------------------------------------------------------------------------- |
+| Structured References | Maintain dynamic project tables without manual range updates.                   |
+| XLOOKUP               | Retrieve client, vendor, cost code, and contract information across worksheets. |
+| IF / IFERROR          | Handle incomplete project records and prevent reporting errors.                 |
+| SUMIFS                | Aggregate values by project category, billing period, vendor, or cost code.     |
+| Dynamic Named Ranges  | Support scalable reporting as project data grows.                               |
 
 </details>
 
 <details>
-<summary>Progress Billing</summary>
+<summary><strong>Budget & Cost Control</strong></summary>
 
-| Purpose | Formula |
-|----------|----------|
-| Previous Billing | `SUMIFS()` |
-| Current Billing | Current − Previous |
-| Holdback | `Current Gross × Holdback %` |
-
-</details>
-
-<details>
-<summary>Client Receipts</summary>
-
-| Purpose | Formula |
-|----------|----------|
-| Invoice Lookup | `XLOOKUP()` |
-| Outstanding Balance | Invoice − Received |
-| Aging | `MAX(TODAY()-DueDate,0)` |
+| Formula / Logic        | Purpose                                                  |
+| ---------------------- | -------------------------------------------------------- |
+| Budget Variance        | Compare approved budget against actual project costs.    |
+| Remaining Budget       | Calculate available funding by cost category.            |
+| Cost Code Aggregation  | Consolidate transactions by standardized cost structure. |
+| Percentage Complete    | Measure project progress relative to contract or budget. |
+| Conditional Formatting | Highlight overruns and budget exceptions automatically.  |
 
 </details>
 
 <details>
-<summary>Cash Flow</summary>
+<summary><strong>Progress Billing & Retainage</strong></summary>
 
-| Purpose | Formula |
-|----------|----------|
-| Monthly Receipts | `MAP()` |
-| Monthly Payments | `SUMIFS()` |
-| Net Cash Flow | Inflow − Outflow |
-| Running Cash Balance | `SCAN()` |
+| Formula / Logic        | Purpose                                               |
+| ---------------------- | ----------------------------------------------------- |
+| Current Contract Value | Original Contract + Approved Change Orders            |
+| Current Billing        | Previous Billings + Current Certified Amount          |
+| Retainage Calculation  | Certified Amount × Retainage Percentage               |
+| Outstanding Receivable | Certified Amount − Cash Received                      |
+| Invoice Balance        | Remaining collectible amount after previous receipts. |
 
 </details>
 
 <details>
-<summary>Invoice Template</summary>
+<summary><strong>Cash Flow & Payment Monitoring</strong></summary>
 
-| Purpose | Formula |
-|----------|----------|
-| Invoice Header | `XLOOKUP()` |
-| Billing Details | `FILTER()` |
-| Selected Columns | `CHOOSECOLS()` |
+| Formula / Logic                    | Purpose                                                               |
+| ---------------------------------- | --------------------------------------------------------------------- |
+| Opening Cash + Receipts − Payments | Monthly project cash movement.                                        |
+| Rolling Cash Forecast              | Estimate future liquidity based on expected receipts and commitments. |
+| Accounts Payable Summary           | Track scheduled contractor payments.                                  |
+| Accounts Receivable Summary        | Monitor client payment status.                                        |
+| Cash Balance Projection            | Support proactive commercial decision making.                         |
+
+</details>
+
+<details>
+<summary><strong>Executive Dashboard</strong></summary>
+
+| Formula / Logic | Purpose                                                                                |
+| --------------- | -------------------------------------------------------------------------------------- |
+| Pivot Tables    | Consolidate operational summaries.                                                     |
+| Dynamic Charts  | Visualize project performance over time.                                               |
+| KPI Cards       | Display contract value, spending, billing, receivables, retainage, and projected cash. |
+| Data Validation | Standardize project inputs and reduce entry errors.                                    |
 
 </details>
 
 ---
 
-## Validation Rules
+### Validation Rules
 
-| Field | Validation Rule | Error Behavior |
-|--------|-----------------|----------------|
-| Cost Code | Must exist in Budget table | `#N/A` if unmatched |
-| Change Order Status | Pending / Approved / Rejected | Only Approved affects budget |
-| Completion % | Between 0% and 100% | Prevents invalid billing |
-| Billing Period | Unique sequential integer | Prevents duplicate invoices |
-| Holdback % | Defined in Parameters | Used globally throughout workbook |
-| Invoice Number | Unique | Prevents duplicate client invoices |
-| Dynamic Array Outputs | Spill range must remain empty | Excel returns `#SPILL!` |
-| Structured Tables | New records appended inside tables | Formulas expand automatically |
+| Field                | Validation Rule                                         | Error Behavior                                           |
+| -------------------- | ------------------------------------------------------- | -------------------------------------------------------- |
+| Project ID           | Required and unique.                                    | Duplicate IDs generate validation warnings.              |
+| Cost Code            | Must exist in the master Cost Code table.               | Invalid codes are rejected from downstream reports.      |
+| Contract Value       | Must be greater than zero.                              | Financial summaries remain blank until corrected.        |
+| Budget Amount        | Cannot be negative.                                     | Negative values are highlighted for review.              |
+| Change Order Status  | Only approved variations affect revised contract value. | Pending variations are excluded automatically.           |
+| Billing Amount       | Cannot exceed remaining contract value without warning. | Overbilling is highlighted through exception formatting. |
+| Retainage Percentage | Must remain within configured project limits.           | Invalid percentages trigger validation alerts.           |
+| Payment Date         | Must be a valid project reporting date.                 | Invalid dates are excluded from cash flow calculations.  |
+| Vendor               | Must exist in the Vendor Master table.                  | Lookup errors are prevented through data validation.     |
+| Client Receipt       | Cannot exceed outstanding receivable balance.           | Excess collections are flagged for reconciliation.       |
 
 </details>
 
@@ -497,11 +491,15 @@ This is exactly the operational distinction the workbook is designed to expose.
 
 # Other Tools in This Series
 
-- **Revenue Management Decision Engine** — Optimize pricing, occupancy, and revenue guardrails with automated forecasting.
-- **Construction Estimating & Cost Tracking** — Estimate project costs, monitor actual spending, and identify variance early.
-- **Lightweight CRM & Shopify Attribution Tracker** — Connect customer interactions with marketing performance and revenue attribution.
-- **Amazon Reporting Automation Toolkit** — Consolidate Seller Central exports into reusable operational dashboards.
-- More lightweight decision-support workbooks are available through the GitHub repository or Gumroad store.
+If you enjoy lightweight Excel-based operational decision tools, you may also find these projects useful:
+
+* **Enterprise Payroll & Annual Workforce Capacity Planning Toolkit** — Workforce planning, payroll forecasting, overtime analysis, and annual labor capacity management.
+* **Rental Property Operations & Vacancy Intelligence Toolkit** — Monitor occupancy, rental income, maintenance, and portfolio performance.
+* **Demand-Adaptive Inventory Planning & Purchasing Toolkit** — Inventory forecasting, reorder planning, supplier lead-time analysis, and purchasing decisions.
+* **Manufacturing Labor Cost & Capacity Planning Toolkit** — Production workforce planning, labor utilization, and manufacturing cost control.
+* **Commercial Energy Cost & Total Cost of Ownership Toolkit** — Compare energy alternatives using consistent commercial and operational assumptions.
+
+More decision-support tools will continue to be published through the GitHub repository and product library.
 
 ---
 
@@ -509,4 +507,7 @@ This is exactly the operational distinction the workbook is designed to expose.
 
 This project is licensed under the **Apache License 2.0**.
 
-You are free to use, modify, and distribute this workbook under the terms of the Apache License 2.0. See the `LICENSE` file for the complete license text.
+You are free to use, modify, and distribute this workbook in accordance with the terms of the Apache License 2.0. Please retain the original license notice and attribution when redistributing or creating derivative works.
+
+For the complete license text, see the accompanying **LICENSE** file included in this repository.
+
