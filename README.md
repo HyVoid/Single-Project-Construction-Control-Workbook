@@ -9,8 +9,7 @@
 
 > **No signup. No installation. Free.**
 >
-> 🌐 **Open in Browser**
-> *(HTML Demo — Coming Soon)*
+> 🌐 **Open in Browser** → [HTML Demo](https://hyvoid.github.io/Single-Project-Construction-Control-Workbook/)
 >
 > 📥 **Download Excel Workbook**
 > *(GitHub Release / Gumroad — Coming Soon)*
