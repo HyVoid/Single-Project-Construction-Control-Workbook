@@ -44,24 +44,6 @@ That makes it suitable for contractors, construction managers, owner's represent
 
 ---
 
-# Screenshots
-
-### Browser Version
-
-<!-- screenshot: browser version -->
-
-*A browser-based project overview for quickly reviewing budget performance, billing status, contractor payments, and cash flow from any device.*
-
----
-
-### Excel Version
-
-<!-- screenshot: excel version -->
-
-*The complete Excel workbook containing structured data entry sheets, automated calculations, invoice generation, and executive reporting.*
-
----
-
 # What It Helps You Track
 
 * Original contract value, approved change orders, and current contract value in one consolidated view.
